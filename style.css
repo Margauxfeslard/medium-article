@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+.container{
+  width: 1000px;
+  margin: 0 auto
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+  margin: 0;
+}
+
+#intro {
+  background-image: url("https://source.unsplash.com/collection/190727/1600x900");
+  object-fit: cover;
+  font-family: 'Lora', serif;
+  height: 400px;
+  padding-left: 150px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, .4);
+}
+
+#intro h2{
+  font-size: 30px;
+  font-style: italic;
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  padding-top: 200px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h2 {
+  color: grey;
+  font-weight: lighter;
+  font-size: 27px;
+  font-family: 'Montserrat', sans-serif;
+  color: #A0A0A0;
+  text-align: left;
+
+}
+
+.contenu {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Lora', serif;
+}
+
+.contenu p {
+  font-size: 18px;
+  color: #494949;
+}
+
+#link {
+  text-decoration: none;
+  color: #494949;
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  background-color:#EAF2D2;
+}
+
+#link:hover{
+  background-color:#77F4B2;
+}
+
